@@ -1,0 +1,91 @@
+@font-face {
+  font-family: font1;
+  src: url("resources/segan-light.ttf");
+}
+
+@font-face {
+  font-family: font2;
+  src: url("resources/ringlet.ttf");
+}
+
+
+
+body{
+	
+	background-image: url('resources/gifbg.gif');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color:white;
+	font-family: font1;
+	
+}
+
+
+#list>li{
+  float: left;
+}
+
+li>a {
+	
+  display: block;
+  color: white;
+  font-family: font1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color:black;
+}
+
+#picid a:hover{
+	background-color: rgb(180,180,180);
+}
+
+input, button, form>input, textarea, div>h1{
+	font-size: 20px;
+	font-family: font1;
+}
+
+button, form>input{
+	background-color:black;
+	color: white;
+	border-style: solid;
+	border-color: white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+form>input, button:hover{
+	background-color:white;
+	color: black;
+}
+
+form{
+	width:100%;
+	text-align:center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(150,150,150);
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
